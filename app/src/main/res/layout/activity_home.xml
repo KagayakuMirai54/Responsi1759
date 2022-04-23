@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/card_product"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginEnd="6dp">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_person45" />
+
+        <TextView
+            android:layout_width="129dp"
+            android:layout_height="101dp"
+            android:layout_marginTop="10dp"
+            android:text="Hallo User"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_headline" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:text="Discover"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Created by Travelers for Travelers our Personalized Vacation Packages will meet and exceed your expectations"
+        android:textSize="20sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_dthtl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="6dp" />
+
+
+
+
+</LinearLayout>
